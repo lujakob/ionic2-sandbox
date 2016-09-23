@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "eyeColor": "green",
+    "name": "Morse Bennett",
+    "gender": "male"
+  },
+  {
+    "index": 1,
+    "eyeColor": "green",
+    "name": "Ava Shepherd",
+    "gender": "female"
+  },
+  {
+    "index": 2,
+    "eyeColor": "brown",
+    "name": "Preston Ware",
+    "gender": "male"
+  },
+  {
+    "index": 3,
+    "eyeColor": "brown",
+    "name": "Trina Norris",
+    "gender": "female"
+  },
+  {
+    "index": 4,
+    "eyeColor": "green",
+    "name": "Julie Dejesus",
+    "gender": "female"
+  },
+  {
+    "index": 5,
+    "eyeColor": "green",
+    "name": "Galloway Anthony",
+    "gender": "male"
+  },
+  {
+    "index": 6,
+    "eyeColor": "blue",
+    "name": "Tara Cote",
+    "gender": "female"
+  },
+  {
+    "index": 7,
+    "eyeColor": "brown",
+    "name": "Acevedo Howell",
+    "gender": "male"
+  },
+  {
+    "index": 8,
+    "eyeColor": "green",
+    "name": "Hess Mullins",
+    "gender": "male"
+  },
+  {
+    "index": 9,
+    "eyeColor": "green",
+    "name": "Erika Bass",
+    "gender": "female"
+  },
+  {
+    "index": 10,
+    "eyeColor": "green",
+    "name": "Shelton Tanner",
+    "gender": "male"
+  },
+  {
+    "index": 11,
+    "eyeColor": "green",
+    "name": "Lolita Matthews",
+    "gender": "female"
+  },
+  {
+    "index": 12,
+    "eyeColor": "brown",
+    "name": "Melton Rosa",
+    "gender": "male"
+  },
+  {
+    "index": 13,
+    "eyeColor": "blue",
+    "name": "Oneil Hays",
+    "gender": "male"
+  },
+  {
+    "index": 14,
+    "eyeColor": "blue",
+    "name": "Christensen Collins",
+    "gender": "male"
+  },
+  {
+    "index": 15,
+    "eyeColor": "brown",
+    "name": "Phelps Rutledge",
+    "gender": "male"
+  },
+  {
+    "index": 16,
+    "eyeColor": "green",
+    "name": "Susana Blake",
+    "gender": "female"
+  },
+  {
+    "index": 17,
+    "eyeColor": "green",
+    "name": "Lamb Fowler",
+    "gender": "male"
+  },
+  {
+    "index": 18,
+    "eyeColor": "brown",
+    "name": "Carlson Gilliam",
+    "gender": "male"
+  },
+  {
+    "index": 19,
+    "eyeColor": "blue",
+    "name": "Case Kim",
+    "gender": "male"
+  }
+]

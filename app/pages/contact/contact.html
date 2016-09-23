@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+	<div>
+		<button (click)="sortByName()" class="btn btn-primary">
+			Sort By Name {{order}}
+		</button>
+	</div>
+	<div>
+
+		<button (click)="filterBy('male')" class="btn btn-primary">
+			Filter By Male
+		</button>
+		<button (click)="filterBy('female')" class="btn btn-primary">
+			Filter By Female
+		</button>
+		<button (click)="filterBy('')" class="btn btn-primary">
+			Remove
+		</button>
+
+	</div>
+	<ion-list>
+		<ion-item *ngFor="let item of items">{{item.name}} ({{item.gender}})</ion-item>
+	</ion-list>
+
+
+
+	<p>this is my counter: {{counter}}</p>
+</ion-content>

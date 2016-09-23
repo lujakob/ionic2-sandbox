@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+  <h2>Welcome to Ionic!</h2>
+
+	<button (click)="increment()" class="btn btn-primary">
+		increment
+	</button>
+	<button (click)="decrement()" class="btn btn-primary">
+		decrement
+	</button>
+	<button (click)="doubleIncrement()" class="btn btn-primary">
+		double
+	</button>
+	<button (click)="addFive()" class="btn btn-primary">
+		add 5
+	</button>
+
+
+	<p>Counter: {{ counter }}</p>
+</ion-content>

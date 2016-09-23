@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="about">
+	<p>50000 items</p>
+
+	<ion-list [virtualScroll]="items">
+		<ion-item *virtualItem="let item">
+
+			<h2>{{item.index}}: {{item.name}}</h2>
+
+			<p>{{item.eyecolor}}</p>
+
+		</ion-item>
+
+	</ion-list>
+</ion-content>
