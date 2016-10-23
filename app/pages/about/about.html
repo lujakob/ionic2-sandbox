@@ -7,10 +7,10 @@
 </ion-header>
 
 <ion-content padding class="about">
-	<p>50000 items</p>
+	<p>{{items.length}} items</p>
 
-	<ion-list [virtualScroll]="items">
-		<ion-item *virtualItem="let item">
+	<ion-list >
+		<ion-item *ngFor="let item of items">
 
 			<h2>{{item.index}}: {{item.name}}</h2>
 
@@ -19,4 +19,6 @@
 		</ion-item>
 
 	</ion-list>
+
+	<bmg-infinite-scroll (ionInfinite)="doInfinite($event)"></bmg-infinite-scroll>
 </ion-content>

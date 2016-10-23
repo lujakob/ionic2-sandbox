@@ -1,7 +1,8 @@
-import { Component, provide } from '@angular/core';
+import { Component, provide, PLATFORM_DIRECTIVES } from '@angular/core';
 import { Platform, ionicBootstrap } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
 import { TabsPage } from './pages/tabs/tabs';
+import { BmgInfiniteScrollContent } from './components/bmg-infinite-scroll-content';
 
 import { AppStore, createAppStoreFactoryWithOptions } from "angular2-redux";
 import reducers from "./reducers";
@@ -12,9 +13,9 @@ const appStoreFactory = createAppStoreFactoryWithOptions({
     debug:true
 });
 
-
 @Component({
-  template: '<ion-nav [root]="rootPage"></ion-nav>'
+    template: '<ion-nav [root]="rootPage"></ion-nav>',
+    directives: [BmgInfiniteScrollContent]
 })
 export class MyApp {
 
@@ -33,5 +34,8 @@ export class MyApp {
 
 ionicBootstrap(MyApp, [
     CounterActions,
-    provide(AppStore, { useFactory: appStoreFactory })
+    BmgInfiniteScrollContent,
+    {provide:AppStore, useFactory: appStoreFactory },
+    {provide:PLATFORM_DIRECTIVES, useValue: [BmgInfiniteScrollContent], multi: true}
+
 ]);
